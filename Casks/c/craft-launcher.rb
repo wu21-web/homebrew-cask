@@ -15,6 +15,7 @@ cask "craft-launcher" do
   uninstall quit: "ai.storyteller.artcraft-launcher"
 
   zap trash: [
+    "~/Library/Application Support/ai.storyteller.artcraft-launcher",
     "~/Library/Application Support/ArtCraft Launcher",
     "~/Library/Caches/ArtCraft Launcher",
   ]
